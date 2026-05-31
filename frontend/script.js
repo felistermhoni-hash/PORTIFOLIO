@@ -1,23 +1,11 @@
-function showSection(sectionId, element){
+function showSection(sectionId, element) {
+  let sections = document.querySelectorAll(".section");
+  sections.forEach(sec => sec.classList.remove("active"));
 
-  // hide all sections
-  const sections = document.querySelectorAll(".section");
+  document.getElementById(sectionId).classList.add("active");
 
-  sections.forEach(section => {
-    section.classList.remove("active");
-  });
+  let navs = document.querySelectorAll(".nav");
+  navs.forEach(nav => nav.classList.remove("active"));
 
-  // show selected section
-  document.getElementById(sectionId)
-  .classList.add("active");
-
-  // remove active from menu
-  const navItems = document.querySelectorAll(".nav");
-
-  navItems.forEach(item => {
-    item.classList.remove("active");
-  });
-
-  // active clicked menu
   element.classList.add("active");
 }

@@ -19,183 +19,128 @@
 
 <body>
 
-  <!-- SIDEBAR -->
-  <div class="sidebar">
+<!-- SIDEBAR -->
+<div class="sidebar">
 
-    <!-- LOGO -->
-    <div class="logo">
-      <i class="fa-solid fa-user-graduate"></i>
-      <h2>Felister Mhoni</h2>
-    </div>
-
-    <!-- MENU -->
-    <ul>
-
-      <li class="nav active"
-      onclick="showSection('profile', this)">
-        <i class="fa-solid fa-user"></i>
-        Profile
-      </li>
-
-      <li class="nav"
-      onclick="showSection('skills', this)">
-        <i class="fa-solid fa-code"></i>
-        Skills
-      </li>
-
-      <li class="nav"
-      onclick="showSection('projects', this)">
-        <i class="fa-solid fa-diagram-project"></i>
-        Projects
-      </li>
-
-      <li class="nav"
-      onclick="showSection('contact', this)">
-        <i class="fa-solid fa-envelope"></i>
-        Contact
-      </li>
-
-    </ul>
-
-    <!-- SOCIAL MEDIA -->
-    <div class="socials">
-
-      <a href="#">
-        <i class="fa-brands fa-linkedin"></i>
-      </a>
-
-      <a href="#">
-        <i class="fa-brands fa-github"></i>
-      </a>
-
-      <a href="#">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-
-      <a href="mailto:felistermhoni@gmail.com">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
-
-    </div>
-
+  <div class="logo">
+    <i class="fa-solid fa-user-graduate"></i>
+    <h2>Felister Mhoni</h2>
   </div>
 
-  <!-- MAIN CONTENT -->
-  <div class="main">
+  <ul>
+    <li class="nav active" onclick="showSection('profile', this)">
+      <i class="fa-solid fa-user"></i> Profile
+    </li>
 
-    <!-- PROFILE -->
-    <section id="profile" class="section active">
+    <li class="nav" onclick="showSection('skills', this)">
+      <i class="fa-solid fa-code"></i> Skills
+    </li>
 
-      <h1>
-        <i class="fa-solid fa-user"></i>
-        Profile
-      </h1>
+    <li class="nav" onclick="showSection('projects', this)">
+      <i class="fa-solid fa-diagram-project"></i> Projects
+    </li>
 
-      <div class="card">
-        <p>Hello, I am <b>Felister Mhoni</b></p>
-        <p>Data Science Student at EASTC</p>
-      </div>
+    <li class="nav" onclick="showSection('contact', this)">
+      <i class="fa-solid fa-envelope"></i> Contact
+    </li>
+  </ul>
 
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section">
-
-      <h1>
-        <i class="fa-solid fa-code"></i>
-        Skills
-      </h1>
-
-      <div class="skills-grid">
-
-        <div class="skill-card">
-          <i class="fa-brands fa-python"></i>
-          <p>Python</p>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-solid fa-database"></i>
-          <p>SQL</p>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-solid fa-chart-column"></i>
-          <p>Power BI</p>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-solid fa-brain"></i>
-          <p>Machine Learning</p>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-brands fa-html5"></i>
-          <p>HTML</p>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-brands fa-css3-alt"></i>
-          <p>CSS</p>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-brands fa-js"></i>
-          <p>JavaScript</p>
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-
-      <h1>
-        <i class="fa-solid fa-diagram-project"></i>
-        Projects
-      </h1>
-
-      <div class="card">
-        <p>📊 Waste Collection Prediction System</p>
-        <p>📈 Credit Risk Assessment System</p>
-        <p>📉 Data Visualization Dashboard</p>
-      </div>
-
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-
-      <h1>
-        <i class="fa-solid fa-envelope"></i>
-        Contact
-      </h1>
-
-      <div class="card">
-
-        <p>
-          <i class="fa-solid fa-envelope"></i>
-          Email:
-          <a href="mailto:felistermhoni@gmail.com">
-            felistermhoni@gmail.com
-          </a>
-        </p>
-
-        <br>
-
-        <p>
-          <i class="fa-solid fa-phone"></i>
-          +255 748 288 916
-        </p>
-
-      </div>
-
-    </section>
-
+  <div class="socials">
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="mailto:felistermhoni@gmail.com"><i class="fa-solid fa-envelope"></i></a>
   </div>
 
-  <!-- JAVASCRIPT -->
-  <script src="script.js"></script>
+</div>
 
+<!-- MAIN -->
+<div class="main">
+
+  <!-- PROFILE -->
+  <section id="profile" class="section active">
+    <h1><i class="fa-solid fa-user"></i> Profile</h1>
+
+    <div class="card">
+      <h2>Hello, I am Felister Mhoni</h2>
+      <p>Data Science Student at EASTC</p>
+      <p>Interested in Data Analysis, Machine Learning, and Data Visualization.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h1><i class="fa-solid fa-code"></i> Skills</h1>
+
+    <div class="skills-grid">
+
+      <div class="skill-card"><i class="fa-brands fa-python"></i><p>Python</p></div>
+      <div class="skill-card"><i class="fa-solid fa-database"></i><p>SQL</p></div>
+      <div class="skill-card"><i class="fa-solid fa-chart-column"></i><p>Power BI</p></div>
+      <div class="skill-card"><i class="fa-solid fa-brain"></i><p>Machine Learning</p></div>
+      <div class="skill-card"><i class="fa-brands fa-html5"></i><p>HTML</p></div>
+      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><p>CSS</p></div>
+      <div class="skill-card"><i class="fa-brands fa-js"></i><p>JavaScript</p></div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h1><i class="fa-solid fa-diagram-project"></i> Projects</h1>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>Waste Collection Optimization</h3>
+        <p>ML system that predicts waste levels and improves collection efficiency.</p>
+        <p><b>Tools:</b> Python, Pandas, Scikit-learn</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Credit Risk Assessment</h3>
+        <p>Predicts loan default risk using machine learning models.</p>
+        <p><b>Tools:</b> Python, Logistic Regression</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Data Visualization Dashboard</h3>
+        <p>Interactive dashboard for business insights using charts.</p>
+        <p><b>Tools:</b> Power BI, Excel</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h1><i class="fa-solid fa-envelope"></i> Contact</h1>
+
+    <div class="contact-form">
+
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+        <input type="text" name="name" placeholder="Full Name" required>
+
+        <input type="email" name="email" placeholder="Email Address" required>
+
+        <textarea name="message" placeholder="Write your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+
+    </div>
+
+    <div class="card contact-info">
+      <p><i class="fa-solid fa-envelope"></i> felistermhoni@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +255 748 288 916</p>
+    </div>
+
+  </section>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
